@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+it('${1:should test something}', function(${2:done}) {
+  var expected = ${3:'foo'};
+  var actual = ${4:'foo'};
+  expect(expected).to.eql(actual);${5:
+  done();}
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>testit</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
