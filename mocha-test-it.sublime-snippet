@@ -3,7 +3,7 @@
 it('${1:should test something}', function(${2:done}) {
   var expected = ${3:'foo'};
   var actual = ${4:'foo'};
-  expect(expected).to.eql(actual);${5:
+  expect(actual).to.eql(expected);${5:
   done();}
 });
 ]]></content>
